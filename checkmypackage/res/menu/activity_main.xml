@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+        <item
+            android:id="@+id/action_sort"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:showAsAction="ifRoom"
+            android:title="Sort">
+            <menu>
+                <item
+                    android:id="@+id/action_sort_size"
+                    android:icon="@android:drawable/ic_menu_sort_by_size"
+                    android:title="Sort By Size"/>
+                <item
+                    android:id="@+id/action_sort_alpha"
+                    android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                    android:title="Sort By Alpha"/>
+            </menu>
+        </item>
+    -->
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="ifRoom"
+        android:title="删除查询历史"/>
+    <item
+        android:id="@+id/back_to_main"
+        android:icon="@drawable/ic_setting"
+        android:showAsAction="ifRoom"
+        android:title="回到首页"/>
+    <!--
+        <item
+            android:id="@+id/action_share"
+            android:icon="@android:drawable/ic_menu_share"
+            android:showAsAction="never"
+            android:title="分享给好友"/>
+    -->
+
+</menu>

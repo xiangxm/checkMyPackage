@@ -1,0 +1,205 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+com.xiangxm.checkpackage.CheckPackageHisActivity
+com.xiangxm.checkpackage.CheckPackageHisActivity: CheckPackageHisActivity()
+com.xiangxm.checkpackage.MainActivity
+com.xiangxm.checkpackage.MainActivity: MainActivity()
+com.xiangxm.checkpackage.MainActivity: void onClick(android.view.View)
+com.xiangxm.checkpackage.PackageDetailInfoActivity
+com.xiangxm.checkpackage.PackageDetailInfoActivity: PackageDetailInfoActivity()
+com.xiangxm.checkpackage.PackageDetailInfoActivity: void onClick(android.view.View)
+com.xiangxm.checkpackage.R$anim: int cycle
+com.xiangxm.checkpackage.R$anim: int push_left_in
+com.xiangxm.checkpackage.R$anim: int push_left_out
+com.xiangxm.checkpackage.R$anim: int shake_x
+com.xiangxm.checkpackage.R$anim: int slide_left
+com.xiangxm.checkpackage.R$anim: int slide_right
+com.xiangxm.checkpackage.R$anim: int slide_top_to_bottom
+com.xiangxm.checkpackage.R$array: int date
+com.xiangxm.checkpackage.R$color: int black
+com.xiangxm.checkpackage.R$color: int transparent
+com.xiangxm.checkpackage.R$drawable: int add_ico
+com.xiangxm.checkpackage.R$drawable: int add_icon_pressed
+com.xiangxm.checkpackage.R$drawable: int back_button_normal
+com.xiangxm.checkpackage.R$drawable: int back_button_selected
+com.xiangxm.checkpackage.R$drawable: int emotionstore_progresscancelbtn
+com.xiangxm.checkpackage.R$drawable: int filter_checked
+com.xiangxm.checkpackage.R$drawable: int history_btn_normal
+com.xiangxm.checkpackage.R$drawable: int history_btn_pressed
+com.xiangxm.checkpackage.R$drawable: int ic_back
+com.xiangxm.checkpackage.R$drawable: int ic_launcher
+com.xiangxm.checkpackage.R$drawable: int ic_setting
+com.xiangxm.checkpackage.R$drawable: int ic_setting_selected
+com.xiangxm.checkpackage.R$drawable: int icon
+com.xiangxm.checkpackage.R$drawable: int linearlayout_selectbackground
+com.xiangxm.checkpackage.R$drawable: int listview_item_traparentselector
+com.xiangxm.checkpackage.R$drawable: int listviewselector_color
+com.xiangxm.checkpackage.R$drawable: int mm_submenu_down_normal
+com.xiangxm.checkpackage.R$drawable: int mm_submenu_normal
+com.xiangxm.checkpackage.R$drawable: int msp_block
+com.xiangxm.checkpackage.R$drawable: int night_pop_bg
+com.xiangxm.checkpackage.R$drawable: int night_set_unfold
+com.xiangxm.checkpackage.R$drawable: int pop_bg
+com.xiangxm.checkpackage.R$drawable: int public_app_white_bg
+com.xiangxm.checkpackage.R$drawable: int search_bar_edit_normal
+com.xiangxm.checkpackage.R$drawable: int search_bar_edit_selector
+com.xiangxm.checkpackage.R$drawable: int search_bar_icon_normal
+com.xiangxm.checkpackage.R$drawable: int searchbtn
+com.xiangxm.checkpackage.R$drawable: int searchbtn_bg
+com.xiangxm.checkpackage.R$drawable: int searchbtn_bg_pressed
+com.xiangxm.checkpackage.R$drawable: int searchbtn_pressed
+com.xiangxm.checkpackage.R$drawable: int shapelayout_grey_bg
+com.xiangxm.checkpackage.R$drawable: int show_head_toast_bg
+com.xiangxm.checkpackage.R$drawable: int sidebar_background
+com.xiangxm.checkpackage.R$drawable: int tab_black_bg
+com.xiangxm.checkpackage.R$drawable: int title_1
+com.xiangxm.checkpackage.R$drawable: int titlebar_bg
+com.xiangxm.checkpackage.R$drawable: int welcome4
+com.xiangxm.checkpackage.R$drawable: int work_detail_click_bg
+com.xiangxm.checkpackage.R$drawable: int work_detail_unfold_bg
+com.xiangxm.checkpackage.R$drawable: int xlistview_arrow
+com.xiangxm.checkpackage.R$id: int DetailLayout
+com.xiangxm.checkpackage.R$id: int aboutauthortxt
+com.xiangxm.checkpackage.R$id: int aboutlayout_1
+com.xiangxm.checkpackage.R$id: int aboutlayout_2
+com.xiangxm.checkpackage.R$id: int aboutlayout_3
+com.xiangxm.checkpackage.R$id: int backBtn
+com.xiangxm.checkpackage.R$id: int back_to_main
+com.xiangxm.checkpackage.R$id: int cancelbtn
+com.xiangxm.checkpackage.R$id: int catalog
+com.xiangxm.checkpackage.R$id: int checkpackage_backBtn
+com.xiangxm.checkpackage.R$id: int companyname_layout
+com.xiangxm.checkpackage.R$id: int companynametxt
+com.xiangxm.checkpackage.R$id: int confirmbtn
+com.xiangxm.checkpackage.R$id: int country_lvcountry
+com.xiangxm.checkpackage.R$id: int currentcitytitletxt
+com.xiangxm.checkpackage.R$id: int detailbackBtn
+com.xiangxm.checkpackage.R$id: int detailinfotxt
+com.xiangxm.checkpackage.R$id: int dialog
+com.xiangxm.checkpackage.R$id: int filter_edit
+com.xiangxm.checkpackage.R$id: int helpinfotext
+com.xiangxm.checkpackage.R$id: int his_checkpackagetime
+com.xiangxm.checkpackage.R$id: int his_companynamenumber
+com.xiangxm.checkpackage.R$id: int historybtn
+com.xiangxm.checkpackage.R$id: int historydetailinfolayout
+com.xiangxm.checkpackage.R$id: int historyitemtxt
+com.xiangxm.checkpackage.R$id: int imageview
+com.xiangxm.checkpackage.R$id: int infotxt
+com.xiangxm.checkpackage.R$id: int leftlayout
+com.xiangxm.checkpackage.R$id: int menu_delete
+com.xiangxm.checkpackage.R$id: int order_numtxt
+com.xiangxm.checkpackage.R$id: int packagedetail_companynametxt
+com.xiangxm.checkpackage.R$id: int phonenumbertxt
+com.xiangxm.checkpackage.R$id: int resultlistview
+com.xiangxm.checkpackage.R$id: int savecheckinfoBtn
+com.xiangxm.checkpackage.R$id: int searchbtn
+com.xiangxm.checkpackage.R$id: int sidrbar
+com.xiangxm.checkpackage.R$id: int start_imageview
+com.xiangxm.checkpackage.R$id: int timetxt
+com.xiangxm.checkpackage.R$id: int title
+com.xiangxm.checkpackage.R$id: int titlelayout
+com.xiangxm.checkpackage.R$id: int workStatusImg
+com.xiangxm.checkpackage.R$layout: int aboutapplayout
+com.xiangxm.checkpackage.R$layout: int activity_main
+com.xiangxm.checkpackage.R$layout: int checkpackagehisinfo_layout
+com.xiangxm.checkpackage.R$layout: int dialog
+com.xiangxm.checkpackage.R$layout: int historyactivity_layout
+com.xiangxm.checkpackage.R$layout: int historylist_item
+com.xiangxm.checkpackage.R$layout: int listview_item
+com.xiangxm.checkpackage.R$layout: int packagedetailactivity
+com.xiangxm.checkpackage.R$layout: int popupwindow_layout
+com.xiangxm.checkpackage.R$layout: int resultlistview_item
+com.xiangxm.checkpackage.R$layout: int selectcompany_layout
+com.xiangxm.checkpackage.R$layout: int startactivity
+com.xiangxm.checkpackage.R$menu: int activity_main
+com.xiangxm.checkpackage.R$raw: int ids
+com.xiangxm.checkpackage.R$raw: int mypackage
+com.xiangxm.checkpackage.R$string: int aboutme
+com.xiangxm.checkpackage.R$string: int app_name
+com.xiangxm.checkpackage.R$string: int databasename
+com.xiangxm.checkpackage.R$string: int hello_world
+com.xiangxm.checkpackage.R$string: int menu_settings
+com.xiangxm.checkpackage.R$string: int personalindex
+com.xiangxm.checkpackage.R$string: int sinaweibo
+com.xiangxm.checkpackage.R$string: int version_code
+com.xiangxm.checkpackage.R$style: int AppBaseTheme
+com.xiangxm.checkpackage.R$style: int AppTheme
+com.xiangxm.checkpackage.R$style: int CustomWindowTitleBackground
+com.xiangxm.checkpackage.R$style: int MY_MEIZU_UI
+com.xiangxm.checkpackage.R$style: int auto_roll_style
+com.xiangxm.checkpackage.R$style: int work_apption_field_style
+com.xiangxm.checkpackage.SelectCompanyActivity
+com.xiangxm.checkpackage.SelectCompanyActivity: SelectCompanyActivity()
+com.xiangxm.checkpackage.SelectCompanyActivity: void onClick(android.view.View)
+com.xiangxm.checkpackage.SettingActivity
+com.xiangxm.checkpackage.SettingActivity: SettingActivity()
+com.xiangxm.myapp.MyApplication
+com.xiangxm.myapp.MyApplication: MyApplication()
+com.xiangxm.sortlistview.ClearEditText
+com.xiangxm.sortlistview.ClearEditText: ClearEditText(android.content.Context)
+com.xiangxm.sortlistview.ClearEditText: ClearEditText(android.content.Context,android.util.AttributeSet)
+com.xiangxm.sortlistview.ClearEditText: ClearEditText(android.content.Context,android.util.AttributeSet,int)
+com.xiangxm.sortlistview.ClearEditText: void setClearIconVisible(boolean)
+com.xiangxm.sortlistview.SideBar
+com.xiangxm.sortlistview.SideBar: void setTextView(android.widget.TextView)
+com.xiangxm.sortlistview.SideBar: SideBar(android.content.Context,android.util.AttributeSet,int)
+com.xiangxm.sortlistview.SideBar: SideBar(android.content.Context,android.util.AttributeSet)
+com.xiangxm.sortlistview.SideBar: SideBar(android.content.Context)
+com.xiangxm.sortlistview.SideBar: void setOnTouchingLetterChangedListener(com.xiangxm.sortlistview.SideBar$OnTouchingLetterChangedListener)
+org.jsoup.Connection$Method: org.jsoup.Connection$Method[] values()
+org.jsoup.Connection$Method: org.jsoup.Connection$Method valueOf(java.lang.String)
+org.jsoup.nodes.Document$QuirksMode: org.jsoup.nodes.Document$QuirksMode[] values()
+org.jsoup.nodes.Document$QuirksMode: org.jsoup.nodes.Document$QuirksMode valueOf(java.lang.String)
+org.jsoup.nodes.Entities$EscapeMode: org.jsoup.nodes.Entities$EscapeMode[] values()
+org.jsoup.nodes.Entities$EscapeMode: org.jsoup.nodes.Entities$EscapeMode valueOf(java.lang.String)
+org.jsoup.parser.HtmlTreeBuilderState: org.jsoup.parser.HtmlTreeBuilderState[] values()
+org.jsoup.parser.HtmlTreeBuilderState: org.jsoup.parser.HtmlTreeBuilderState valueOf(java.lang.String)
+org.jsoup.parser.Token$TokenType: org.jsoup.parser.Token$TokenType[] values()
+org.jsoup.parser.Token$TokenType: org.jsoup.parser.Token$TokenType valueOf(java.lang.String)
+org.jsoup.parser.TokeniserState: org.jsoup.parser.TokeniserState[] values()
+org.jsoup.parser.TokeniserState: org.jsoup.parser.TokeniserState valueOf(java.lang.String)

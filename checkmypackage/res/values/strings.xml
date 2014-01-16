@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">掌上快递</string>
+    <string name="version_code">掌上快递1.1</string>
+    <string name="menu_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="databasename">mypackage</string>
+    <string name="aboutme">联系QQ：1165669889</string>
+    <string name="sinaweibo">新浪微博：https://www.google.com.hk/</string>
+    <string name="personalindex">个人主页：https://www.google.com.hk/</string>
+
+</resources>

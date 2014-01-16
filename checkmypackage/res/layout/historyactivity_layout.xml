@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/tab_black_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/checkpackage_backBtn"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/back_button_normal"
+            android:gravity="center|center_vertical"
+            android:paddingLeft="5dp"
+            android:text="返回"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical"
+            android:text="查询历史"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/historydetailinfolayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:clickable="false"
+            android:divider="#C5C1AA"
+            android:background="#FFFFFF"
+            android:dividerHeight="0dp"
+            android:scrollbarFadeDuration="300"
+            android:listSelector="@drawable/historydetailinfo_click_selector"
+            android:scrollbars="vertical" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

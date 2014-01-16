@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xiangxm.checkpackage"
+    android:versionCode="2"
+    android:versionName="1.2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.xiangxm.myapp.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.xiangxm.checkpackage.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xiangxm.checkpackage.SettingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <!--
+             <activity
+            android:name=".MainActivity"
+            android:theme="@style/MY_MEIZU_UI"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        -->
+        <activity
+            android:name="com.xiangxm.checkpackage.SelectCompanyActivity"
+            android:screenOrientation="portrait"
+            
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.xiangxm.checkpackage.PackageDetailInfoActivity"
+            android:screenOrientation="portrait"
+            
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.xiangxm.checkpackage.HistoryActivity"
+            android:screenOrientation="portrait"
+            
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.xiangxm.checkpackage.CheckPackageHisActivity"
+            android:screenOrientation="portrait"
+            
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+    </application>
+
+</manifest>

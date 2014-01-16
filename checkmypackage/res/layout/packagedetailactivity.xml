@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/tab_black_bg"
+        android:gravity="center|center_vertical"
+        android:orientation="horizontal" >
+    <Button
+            android:id="@+id/detailbackBtn"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/back_button_normal"
+            android:gravity="center|center_vertical"
+            android:paddingLeft="5dp"
+            android:text="返回"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:id="@+id/packagedetail_companynametxt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|center_vertical"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="圆通：7123456754"
+            android:paddingLeft="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/savecheckinfoBtn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center|center_vertical"
+            android:background="@drawable/add_ico"
+            android:gravity="left|center_vertical"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/resultlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:clickable="false"
+        android:divider="#C5C1AA"
+        android:dividerHeight="0dp"
+        android:listSelector="@drawable/listviewselector_color"
+        android:scrollbarFadeDuration="300"
+        android:scrollbars="vertical" >
+    </ListView>
+
+</LinearLayout>
